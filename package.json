@@ -2,7 +2,7 @@
   "name": "blur_admin",
   "version": "1.2.0",
     "scripts": {
-    "postinstall": " bower install && gulp build && cd dist/ && npm install",
+    "postinstall": "bower install && npm install",
     "start": "node src/server.js"
   },
   "devDependencies": {
