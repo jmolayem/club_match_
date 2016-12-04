@@ -1,10 +1,6 @@
 {
   "name": "blur_admin",
   "version": "1.2.0",
-    "scripts": {
-    "postinstall": " bower install && gulp build && cd dist/ && npm install",
-    "start": "node gulp/server.js"
-  },
   "devDependencies": {
     "browser-sync": "~2.9.11",
     "browser-sync-spa": "~1.0.3",
@@ -47,7 +43,7 @@
     "wrench": "~1.5.8"
   },
   "scripts": {
-    "postinstall": "bower install"
+    "postinstall": "npm install",
   },
   "dependencies": {
     "angularfire": "^2.1.0"
