@@ -42,8 +42,8 @@
     "wiredep": "~2.2.2",
     "wrench": "~1.5.8"
   },
-  "scripts": {
-    "postinstall": "npm install"
+  "engines": {
+    "node": ">=0.10.0"
   },
   "dependencies": {
     "angularfire": "^2.1.0"
