@@ -43,7 +43,7 @@
     "wrench": "~1.5.8"
   },
   "scripts": {
-    "postinstall": "npm install",
+    "postinstall": "npm install"
   },
   "dependencies": {
     "angularfire": "^2.1.0"
