@@ -91,8 +91,14 @@ gulp.task('other', ['copyVendorImages'], function () {
     .pipe(gulp.dest(path.join(conf.paths.dist, '/')));
 });
 
+gulp.task('nodeServer', function () {
+  return gulp.src('node-server/*')
+    .pipe(gulp.dest(paths.dist + '/'))
+    .pipe($.size());
+});
+
 gulp.task('clean', function () {
   return $.del([path.join(conf.paths.dist, '/'), path.join(conf.paths.tmp, '/')]);
 });
 
-gulp.task('build', ['html', 'fonts', 'other']);
+gulp.task('build', ['html', 'fonts', 'other','nodeServer']);
