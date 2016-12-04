@@ -1,9 +1,6 @@
 {
   "name": "blur_admin",
   "version": "1.2.0",
-    "scripts": {
-    "start": "node src/server.js"
-  },
   "devDependencies": {
     "browser-sync": "~2.9.11",
     "browser-sync-spa": "~1.0.3",
@@ -50,6 +47,6 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "angularfire": "^2.1.0",
+    "angularfire": "^2.1.0"
   }
 }
